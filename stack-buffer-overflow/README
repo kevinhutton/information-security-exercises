@@ -1,0 +1,5 @@
+This is a demonstration of a stack buffer overflow using C
+
+NOTES:
+
+GCC will randomize stack memory locations in order to prevent buffer overflow , thus the Makefile uses -fno-stack-protector for this demo 
